@@ -1,10 +1,13 @@
 # EMAS — Red de Estaciones Meteorológicas Automáticas
 
-[![sitio](https://img.shields.io/badge/sitio-app.lemeit.ar/emas-009688?style=flat-square)](https://app.lemeit.ar/emas) [![docs](https://img.shields.io/badge/docs-wiki.lemeit.ar-009688?style=flat-square)](https://wiki.lemeit.ar/red-ambiental/02-ema-saladillo/) [![API](https://img.shields.io/badge/API-pública-FF5722?style=flat-square)](https://app.lemeit.ar/emas/api.html) [![licencia](https://img.shields.io/badge/licencia-MIT-009688?style=flat-square)](#licencia)
+[![sitio](https://img.shields.io/badge/sitio-app.lemeit.ar/emas-009688?style=flat-square&labelColor=555555)](https://app.lemeit.ar/emas)
+[![docs](https://img.shields.io/badge/docs-wiki.lemeit.ar-009688?style=flat-square&labelColor=555555)](https://wiki.lemeit.ar/red-ambiental/02-ema-saladillo/)
+[![API](https://img.shields.io/badge/API-pública-FF5722?style=flat-square&labelColor=555555)](https://app.lemeit.ar/emas/api.html)
+[![licencia](https://img.shields.io/badge/licencia-MIT-009688?style=flat-square&labelColor=555555)](#licencia)
 
 Sistema de adquisición y visualización de datos meteorológicos de estaciones automáticas en Saladillo y 25 de Mayo, Buenos Aires, Argentina. Publicado en [app.lemeit.ar/emas](https://app.lemeit.ar/emas).
 
-Es uno de tres proyectos de monitoreo ambiental que comparten la misma infraestructura de Cloudflare (Pages + Workers + D1), pensados para integrarse a futuro: este (meteorología), [app.lemeit.ar/aq](https://app.lemeit.ar/aq) (calidad del aire, sensores PurpleAir + AirGradient) y [app.lemeit.ar/wq](https://app.lemeit.ar/wq) (calidad del agua).
+Es uno de tres proyectos de monitoreo ambiental que comparten la misma infraestructura de Cloudflare (Pages + Workers + D1), reunidos bajo el origen público `app.lemeit.ar` mediante el gateway, con repositorios y despliegues independientes: este (meteorología), [app.lemeit.ar/aq](https://app.lemeit.ar/aq) (calidad del aire, sensores PurpleAir + AirGradient) y [app.lemeit.ar/wq](https://app.lemeit.ar/wq) (calidad del agua).
 
 📚 Documentación técnica completa, guías de uso de la API y bitácora de los tres portales: [wiki.lemeit.ar](https://wiki.lemeit.ar).
 
